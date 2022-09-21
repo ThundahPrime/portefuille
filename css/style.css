@@ -1,0 +1,15 @@
+section {
+    display: block;
+    border-style: solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 600px;
+    margin-left: 600px;
+  }
+body {background-color: blue;}
+footer {background-color: darkblue}
+header {background-color: darkblue}
+h1 {background-color: darkblue}
+h1 {
+  font-family: Helvetica, sans-serif;
+}
