@@ -3,13 +3,58 @@ section {
     border-style: solid;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: white;
   }
-body {background-color: blue;}
-footer {background-color: darkblue}
-header {background-color: darkblue}
-h1 {background-color: darkblue}
-h1 {
-  font-family: Helvetica, sans-serif;
+
+article {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+}
+
+header {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  border-style: solid;
+}
+
+footer {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body {
+  background-color: blue;
+}
+
+nav {
+  background-color: cyan;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 800px;
+  margin : 0 auto;
+}
+
+.flex-image {
+  display: flex;
+  object-fit: scale-down;
+  justify-content: center;
+}
+
+@media (min-width: 480px) and (max-width:767px) {
+  body {
+    background-color:white;
+  }
 }
